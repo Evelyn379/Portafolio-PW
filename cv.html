@@ -1,116 +1,95 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum Vitae</title>
+    <title>Mi Currículum Vitae</title>
     <style>
-        body {
+        body{
             font-family: 'Times New Roman', Times, serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #bbffb8;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        header img {
-            border-radius: 10%;
-            width: 150px;
-            height: 150px;
-        }
-        h1 {
-            margin: 10px 0;
-            font-size: 2em;
-        }
-        h2 {
-            color: #000000;
-            border-bottom: 2px solid #000000;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        .item {
-            margin-bottom: 10px;
+            background-color: #bbffb8; 
         }
     </style>
 </head>
 <body>
-    <a href="index.html">Principal</a><br/> 
+    <a href="index.html">Principal</a> <br/>
     <a href="horario.html">Anterior</a> <br/>
-    <div class="container">
-        <header>
-            <img align="left" src="assets/Evelyn.jpg" alt="Foto de Perfil">
-            <h1>Evelyn Magaly Garcia Azua.</h1>
-            <br>
-            <p>Currículum</p>
-        </header>
 
-        <section>
-            <h2 align="center">Datos Generales</h2>
-            <p><strong>Dirección:</strong> Calle San Javier 313, Col San Angel 1</p>
-            <p><strong>Teléfono:</strong> 8451081754</p>
-            <p><strong>Email:</strong> evelyngarciaazua@gmail.com</p>
-        </section>
-
-        <section>
-            <h2 align="center">Datos Académicos</h2>
-            <div class="item">
-                <p><strong>Grado:</strong> Tecnico en Procesos de Gestion Administrativa</p>
-                <p><strong>Institución:</strong> CECyTE IV</p>
-                <p><strong>Años:</strong> 2019 - 2022</p>
-            </div>
-            <div class="item">
-                <p><strong>Grado:</strong> Ingenieria en Sistemas Computacionales</p>
-                <p><strong>Institución:</strong> Tecnologico de Ciudad Valles</p>
-                <p><strong>Años:</strong> 2022 - " "</p>
-            </div>
-        </section>
-
-        <section>
-            <h2 align="center">Datos Laborales</h2>
-            <div class="item">
-                <p><strong>Puesto:</strong> Empleada General</p>
-                <p><strong>Empresa:</strong> Ciberkoon</p>
-                <p><strong>Años:</strong> 2019 - 2020</p>
-            </div>
-            <div class="item">
-                <p><strong>Puesto:</strong> Auxiliar Administrativo</p>
-                <p><strong>Empresa:</strong> Docudigital</p>
-                <p><strong>Años:</strong> 2022 - 2022</p>
-            </div>
-            <div class="item">
-                <p><strong>Puesto:</strong> Auxiliar Contable</p>
-                <p><strong>Empresa:</strong> Gussi</p>
-                <p><strong>Años:</strong> 2021 - 2021</p>
-            </div>
-        </section>
-
-        <section>
-            <h2 align="center">Hobbies</h2>
-            <p>Ver series, escuchar musica, salir a pasear, ver beisbol, leer historias de ficción y navegar en las redes sociales.</p>
-        </section>
-
-        <section>
-            <h2 align="center">Canción Favorita</h2>
-            <p>"Debi Suponerlo" - Morat</p>
-        </section>
-
-        <section>
-            <h2 align="center">Lugar Favorito</h2>
-            <p>El campo de beisbol.</p>
-        </section>
-    </div>
-
+    <table bgcolor="white" align="center">
+        <thead bgcolor="#078e0b">
+            <tr>
+                <th colspan="4" ><img src="assets/Evelyn.jpg" alt="Foto de Perfil" width="150" height="150" align="left">
+                <h1 align="center">Evelyn Magaly Garcia Azua.</h1></th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td bgcolor="#078e0b" rowspan="10">🌹</td>
+                <th></th>
+                <td bgcolor="#078e0b" rowspan="10"></td>
+                <th>Datos Académicos</th>
+            </tr>
+            <tr>
+                <th>Datos Generales</th>
+                <td rowspan="2" align="left">
+                    <strong>Grado:</strong>Técnico en Procesos de Gestión<br/> Administrativa.<br/>
+                    <strong>Institución:</strong>CECyTE IV.<br/>
+                    <strong>Años:</strong>2019 - 2022<br/>
+                    <strong>Grado:</strong>Ingenieria en Sistemas Computacionales.<br/>
+                    <strong>Institución:</strong>Técnologico de Ciudad Valles.<br/>
+                    <strong>Años:</strong>2022 - ""
+                    <hr \>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    <strong>Dirección:</strong>Calle San Javier 313,<br/> Col. San Angel 1<br/>
+                    <strong>Teléfono:</strong>8451081754<br/>
+                    <strong>Email:</strong><br/>evelyngarciaazua@gmail.com
+                    <hr \>
+                </td>
+            </tr>
+            <tr>
+                <th >Hobbies</th>
+                <th>Datos Laborales</th>
+            </tr>
+            <tr>
+                <td align="left">
+                    <li>Escuchar musica.</li>
+                    <li>Ver series.</li>
+                    <li>Salir a pasear.</li>
+                    <li>Ver beisbol.</li>
+                    <li>Navegar en las redes sociales.</li>
+                    <hr \>
+                </td>
+                <td rowspan="3" align="left">
+                    <strong>Puesto:</strong>Empleada General.<br/>
+                    <strong>Empresa:</strong>Ciberkoon.<br/>
+                    <strong>Años:</strong>2019 - 2020<br/>
+                    <strong>Puesto:</strong>Auxiliar Administrativo.<br/>
+                    <strong>Empresa:</strong>Docudigital.<br/>
+                    <strong>Años:</strong>2021 - 2021<br/>
+                    <strong>Puesto:</strong>Auxiliar Contable.<br/>
+                    <strong>Empresa:</strong>Gussi.<br/>
+                    <strong>Años:</strong>2022 - 2022
+                    <hr \>
+                </td>
+            </tr>
+            <tr>
+                <th>Canción Favorita</th>
+            </tr>
+            <tr>
+                <td align="center">"Debi Suponerlo"-Morat<hr \></td>
+            </tr>
+            <tr>
+                <th>Lugar Favorito</th>
+                <th>Idioma</th>
+            </tr>
+            <tr>
+                <td align="center">El campo de beisbol.</td>
+                <td align="center">Español.</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
